@@ -1,6 +1,6 @@
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Winny Hub", "LightTheme")
+local Window = Library.CreateLib("Winny Hub", "BloodTheme")
 
 local Tab = Window:NewTab("Credit")
 local Section = Tab:NewSection("Winny x Edit")
