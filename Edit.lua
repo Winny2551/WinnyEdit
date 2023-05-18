@@ -12,3 +12,7 @@ Section:NewLabel("Discord | Winny#2334")
 Section:NewButton("Copy Link Discord", "https://discord.gg/jEzKtFPXdV", function()
 setclipboard("https://discord.gg/jEzKtFPXdV")
 end)
+
+local Tab = Window:NewTab("AutoFarm")
+local Section = Tab:NewSection("AutoFarm Win")
+
