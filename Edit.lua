@@ -1,4 +1,16 @@
 
+function RobloxNotify(Ti,Tab,icon,sec)
+        game.StarterGui.SetCone("SendNotification", {
+      Title = Ti,
+      Text = tab,
+      icon = icon,
+      Duration = sec,
+      })
+end
+
+end
+end
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Winny Hub", "BloodTheme")
 
