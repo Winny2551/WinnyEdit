@@ -8,8 +8,7 @@ function RobloxNotify(Ti,Tab,icon,sec)
       })
 end
 
-end
-end
+RobloxNotify("Winny Hub","Not Have Key",nil,5)
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Winny Hub", "BloodTheme")
