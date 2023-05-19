@@ -1,22 +1,21 @@
-function RobloxNotify(Ti,Tab,icon,sec)
 
-        game.StarterGui.SetCone("SendNotification", {
 
-      Title = Ti,
+function RobloxNotify(Ti,tab,icon,sec)
 
-      Text = tab,
+    game.StarterGui:SetCore("SendNotification", {
 
-      icon = icon,
+    Title = Ti,
 
-      Duration = sec,
+    Text = tab,
 
-      })
+    Icon = icon,
+
+    Duration = sec,
+
+    })
 
 end
 
-RobloxNotify("Winny Hub","Not Have Key",nil,5)
+RobloxNotify("Test","what",nil,2)
 
-game.Players.LocalPlayer:Kick("You Not Have Key")
-
-
-
+game.Players.LocalPlayer:Kick("Invalid Key! Please Rejoin And Try Again.")
